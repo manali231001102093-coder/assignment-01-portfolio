@@ -1,0 +1,121 @@
+.contact-section {
+  background-color: var(--surface);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  background-color: var(--background);
+  border-radius: 1rem;
+  border: 1px solid var(--surface-border);
+  overflow: hidden;
+}
+
+.contact-info {
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), transparent);
+}
+
+.contact-info h3 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.info-icon {
+  background-color: var(--surface);
+  color: var(--primary);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--surface-border);
+}
+
+.info-item h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: white;
+}
+
+.info-item p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.contact-form-container {
+  padding: 3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 0.5rem;
+  color: white;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.submit-btn {
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-info,
+  .contact-form-container {
+    padding: 2rem;
+  }
+}

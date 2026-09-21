@@ -1,0 +1,71 @@
+Vercel CLI 59.20.0 (Node.js 20.17.0)
+Loading teams…
+
+  Directory       /media/deepdp/New Volume/Assingment/Saikat/assignment-01-portfolio
+
+Searching for existing projects…
+
+  Detected Vite (Build Command: vite build, Output Directory: dist)
+
+✓ Created         assingment1/assignment-01-portfolio
+> Connecting GitHub repository: https://github.com/saikatclgassigment2026-coder/assignment-01-portfolio
+Error: Failed to link saikatclgassigment2026-coder/assignment-01-portfolio. You need to add a Login Connection to your GitHub account first. (400)
+Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
+Deploying assingment1/assignment-01-portfolio
+Uploading [--------------------] (0.0B/7KB)
+Uploading [===========---------] (4.1KB/7KB)
+Uploading [==================--] (6.3KB/7KB)
+Uploading [====================] (7.0KB/7KB)
+  Inspect         https://vercel.com/assingment1/assignment-01-portfolio/8UsPtteLsBudKEd9CdKBNGh4kfBg
+  Production      https://assignment-01-portfolio-ka881zu7x-assingment1.vercel.app
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 35 deployment files...
+Running "vercel build"
+Vercel CLI 59.23.2
+Installing dependencies...
+Installing dependencies...
+added 26 packages in 4s
+9 packages are looking for funding
+run `npm fund` for details
+Running "npm run build"
+> assignment-01-portfolio@0.0.0 build
+> vite build
+vite v8.3.0 building client environment for production...
+transforming...
+[2K[1A[2K[G  Production      https://assignment-01-portfolio-ka881zu7x-assingment1.vercel.app
+Completing…
+▲ Aliased         https://assignment-01-portfolio-ten.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_8UsPtteLsBudKEd9CdKBNGh4kfBg",
+    "url": "https://assignment-01-portfolio-ka881zu7x-assingment1.vercel.app",
+    "inspectorUrl": "https://vercel.com/assingment1/assignment-01-portfolio/8UsPtteLsBudKEd9CdKBNGh4kfBg",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_8UsPtteLsBudKEd9CdKBNGh4kfBg"
+  },
+  "message": "Deployment assignment-01-portfolio-ka881zu7x-assingment1.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel git connect",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://assignment-01-portfolio-ka881zu7x-assingment1.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect assignment-01-portfolio-ka881zu7x-assingment1.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
